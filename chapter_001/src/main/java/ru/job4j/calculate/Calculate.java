@@ -5,9 +5,9 @@
  * @version $Id$
  * @since 0.1
  */
- package ru.job4j.calculator;
+ package ru.job4j.calculate;
 
-public class Calculator {
+public class Calculate {
     private double result;
     
     public void add(double first, double second) {
@@ -21,21 +21,21 @@ public class Calculator {
         this.result = first - second;
     }
     
-    public double getResult() {
+    public double getResult1() {
         return this.result;
     }
 	    public void div(double first, double second) {
         this.result = first / second;
     }
     
-    public double getResult() {
+    public double getResult2() {
         return this.result;
     }
 	    public void multiple(double first, double second) {
         this.result = first * second;
     }
     
-    public double getResult() {
+    public double getResult3() {
         return this.result;
     }
 }

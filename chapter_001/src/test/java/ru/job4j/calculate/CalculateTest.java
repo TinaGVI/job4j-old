@@ -11,10 +11,10 @@ import static org.junit.Assert.assertThat;
 * @version $Id$
 * @since 0.1
 */
-public class CalculatorTest {
+public class CalculateTest {
     @Test
     public void whenAddOnePlusOneThenTwo() {
-        Calculator calc = new Calculator();
+        Calculate calc = new Calculate();
         calc.add(1D, 1D);
         double result = calc.getResult();
         double expected = 2D;
@@ -22,7 +22,7 @@ public class CalculatorTest {
     }
 	@Test
     public void whenSubtractOnePlusOneThenTwo() {
-        Calculator calc = new Calculator();
+        Calculate calc = new Calculate();
         calc.subtract(1D, 1D);
         double result = calc.getResult();
         double expected = 1D - 1D;
@@ -30,7 +30,7 @@ public class CalculatorTest {
     }
 		@Test
     public void whenDivOnePlusOneThenTwo() {
-        Calculator calc = new Calculator();
+        Calculate calc = new Calculate();
         calc.div(1D, 1D);
         double result = calc.getResult();
         double expected = 1D / 1D;
@@ -38,7 +38,7 @@ public class CalculatorTest {
     }
 			@Test
     public void whenMultipleOnePlusOneThenTwo() {
-        Calculator calc = new Calculator();
+        Calculate calc = new Calculate();
         calc.multiple(1D, 1D);
         double result = calc.getResult();
         double expected = 1D * 1D;
